@@ -5,8 +5,9 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
 }
+
 .container {
-  max-width: 1140px;
+  max-width: 1110px;
   margin: 0 auto;
   padding: 15px;
 }
@@ -19,7 +20,7 @@ body {
 .section-subtitle {
   margin: 0;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 38px;
   color: #000000;
 }
 header {
@@ -81,6 +82,8 @@ h1 {
   margin: 0;
   color: #ffffff;
 }
+
+/*ABOUT*/
 .about {
   padding: 95px 0 80px;
   background: #eff8f6;
@@ -93,7 +96,7 @@ h1 {
   display: inline-block;
   width: 50%;
   padding: 24px;
-  vertical-align: top;
+  vertical-align: middle;
   border-radius: 10px 0px 0px 10px;
   background: #e5e5e5;
 }
@@ -106,6 +109,7 @@ h1 {
 .about-image {
   display: inline-block;
   width: 50%;
+  height: 342px;
   vertical-align: top;
   border-radius: 0px 10px 10px 0px;
 }
@@ -114,6 +118,8 @@ h1 {
   background-color: #ffffff;
 }
 .features-cards {
+  width: 1110px;
+  height: 409px;
   margin-top: 40px;
   font-size: 0;
 }
